@@ -1,0 +1,26 @@
+{
+  "name": "CLI-APP",
+  "version": "1.0.0",
+  "main": "./src",
+  "scripts": {
+    "start": "babel-node --presets es2016 ./src"
+  },
+  "author": "hkd987 <lundinmatthews@me.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2016": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "beedle": "^0.7.1",
+    "blessed": "^0.1.81"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.1",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.15.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0"
+  }
+}
